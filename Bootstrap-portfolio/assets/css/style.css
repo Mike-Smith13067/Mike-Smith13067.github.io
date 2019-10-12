@@ -1,0 +1,306 @@
+
+/* Navigation bar all three pages */
+
+.navbar {
+    background-color: teal;
+    left: 18.25%;
+    width: 960px;
+}
+.navbar-brand {
+    font-size: 24px;
+    color: white;
+    font-style: bold;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 50px;
+  
+  }
+
+  .navbar-footer {
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    
+    
+    }
+
+    a {
+      text-align: center;
+      color: #777777;
+    }
+
+/* Header */
+
+.header {
+    background-color: #ffffff;
+    height: 50px;
+
+}
+
+/* Container (large grey-blue background) Index page */
+
+  .container{
+    position: relative;
+    background-color: #dddddd;
+    height: 725px;
+    width: 960px;
+    left: 15%;
+    margin: 0px 50px 0 50px; 
+   
+  }
+
+  /* Container - Portfolio page */
+
+  .portfolio-container{
+    position: relative;
+      background-color: #dddddd;
+      height: 900px;
+      margin: 0 50px 0 50px;
+      top: 50px;
+     
+    }
+
+    /* Container - Contact page*/
+    
+    .contact-container{
+    position: relative;
+      background-color: #dddddd;
+      height: 600px;
+      margin: 0 50px 0 50px;
+      top: 25px;
+     
+    }
+
+  /* About me card (index page)*/
+
+  .card-body-index {
+      position: relative;
+      height: 500px;
+      width: 850px;
+      left: -200;
+      
+  }
+
+  .card-title{
+    position: absolute;
+    left: -235px;
+    font-size: 24px;
+    font-style: bold;
+    color: teal;
+    border-bottom: 5px teal solid;
+    width: 760px;
+    top: -50px;
+  }
+
+
+  .card-img {
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 55px;
+      left: 50px;
+
+  }
+
+  .card-text1 {
+      position: absolute;
+      top: -150 px;
+      width: 500px;
+      font-size: 15px;
+      font-family: Arial;
+      color: #777777;
+      margin: 0 0 0 50px;
+
+
+  }
+
+  .card-text2 {
+    position: relative;
+    top: 50px;
+    width: 450px;
+    font-size: 15px;
+    font-family: Arial;
+    color: #777777;
+    padding: 20px 0 0 0;
+    margin: 50px;
+}
+
+.card-text3 {
+    position: relative;
+    top: 25px;
+    width: 450px;
+    font-size: 15px;
+    font-family: Arial;
+    color: #777777;
+    margin: 50px;
+}
+
+/* Portfilio cards */
+
+.card-body-portfolio{
+    position: absolute;
+    left: 250px;
+    top: 75px;
+
+}
+
+.poker{
+    position: absolute;
+    top: 50px;
+    height: 225px;
+    width: 225px;
+    margin: 50px;
+}
+.card-body-poker {
+    position: relative;
+    top: 290px;
+    left: 50px;
+    background-color: teal;
+    width: 225px;
+    font-size: 24px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+
+}
+.book {
+  position: absolute;
+  top: 50px;
+  left: 15px;
+  height: 225px;
+  width: 225px;
+  margin: 50px;
+}
+.card-body-book {
+  position: relative;
+  top: 290px;
+  left: 50px;
+  width: 200px;
+  background-color: teal;
+  width: 225px;
+  font-size: 24px;
+  font-style: bold;
+  color: white;
+  text-align: center;
+}
+
+.dallas{
+  position: absolute;
+  top: 250px;
+  height: 225px;
+  width: 225px;
+  margin: 50px;
+}
+.card-body-dallas {
+  position: relative;
+  top: 525px;
+  left: 50px;
+  background-color: teal;
+  width: 225px;
+  font-size: 24px;
+  font-style: bold;
+  color: white;
+  text-align: center;
+
+}
+.alison {
+position: absolute;
+left: 565px;
+top: 225px;
+height: 225px;
+width: 225px;
+margin: 50px;
+}
+.card-body-alison {
+position: relative;
+top: 490px;
+left: 600px;
+width: 200px;
+background-color: teal;
+width: 225px;
+font-size: 24px;
+font-style: bold;
+color: white;
+text-align: center;
+}
+
+.ajeep {
+  position: absolute;
+  left: 565px;
+  top: 225px;
+  height: 225px;
+  width: 225px;
+  margin: 50px;
+  }
+  .card-body-jeep {
+  position: relative;
+  top: 490px;
+  left: 615px;
+  width: 200px;
+  background-color: teal;
+  width: 225px;
+  font-size: 24px;
+  font-style: bold;
+  color: white;
+  text-align: center;
+  }
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100px;
+
+}
+body{
+  position: relative;
+  top: 0px;
+}
+
+.card-portfolio {
+    position: absolute;
+    left: 250px;
+}
+
+/* Contact page*/
+
+#contact-insert {
+position: relative;
+background-color: #ffffff;
+Width: 960px;
+height: 500px;
+left: 50%;
+margin-left: -480px;
+top: 30px;
+} 
+
+
+textarea {
+position: relative;
+right: -25;
+height: 200px;
+width: 95%;
+border: 2px solid #cccccc;
+}
+
+input[type=email] {
+position: relative;
+width:95%;
+right: -25px;
+display: inline-block;
+border: 2px solid #cccccc;
+}
+
+input[type=text] {
+position: relative;
+width:95%;
+right: -25px;
+display: inline-block;
+border: 2px solid #cccccc;
+}
+
+
